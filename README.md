@@ -1,89 +1,52 @@
 # 🎬 Screenmatch
 
----
+**Screenmatch** es una aplicación que permite registrar y gestionar información sobre títulos de películas y series. Los usuarios pueden agregar detalles como el nombre, fecha de lanzamiento, duración, sinopsis y si está incluido en el plan básico. Es una herramienta diseñada para mantener un catálogo organizado de contenido audiovisual.
 
-### Descripción
-**Screenmatch** es una aplicación interactiva basada en Java diseñada para evaluar y calificar películas. Proporciona detalles clave de cada película, permite a los usuarios ingresar sus propias calificaciones y calcula un promedio basado en las opiniones del público.
+## 🛠️ Características
 
----
+- **Registrar películas**: Permite ingresar información sobre una película, como su nombre, fecha de lanzamiento, duración y más.
+- **Registrar series**: Agrega detalles de series, como el número de temporadas, episodios por temporada y duración de cada episodio.
+- **Mostrar ficha técnica**: Al registrar un título, el programa muestra una ficha técnica con todos los datos introducidos.
+- **Interfaz de consola amigable**: Menú fácil de usar con opciones claras para registrar y consultar títulos.
 
-### Características
-- **Visualización de detalles**: Muestra información básica de la película, como su título, año de lanzamiento, calificación promedio y disponibilidad en un plan básico.
-- **Interacción con el usuario**: Permite a los usuarios ingresar sus propias calificaciones.
-- **Cálculo de promedios**: Genera una media de las calificaciones de los usuarios y la compara con la media predefinida.
-- **Mensajes personalizados**: Brinda una experiencia interactiva con mensajes amigables y dinámicos.
+## 💻 Tecnologías Utilizadas
 
----
+- **Java**: Lenguaje de programación principal utilizado para el desarrollo de la aplicación.
+- **Programación Orientada a Objetos**: El proyecto está estructurado bajo el paradigma de POO, utilizando clases como `Pelicula`, `Serie` y `Titulo`.
+- **Scanner (Java)**: Utilizado para la entrada de datos a través de la consola.
 
-### Requisitos previos
-Para ejecutar este proyecto necesitas:
-- [Java JDK 8 o superior](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Un entorno de desarrollo como [IntelliJ IDEA](https://www.jetbrains.com/idea/) o [Eclipse](https://www.eclipse.org/ide/).
+## ⚙️ Cómo Ejecutar el Proyecto
 
----
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/josecervera20/screenmatch-java
+   ```
 
-### Instalación y configuración
-1. Clona este repositorio o descarga los archivos manualmente.
-    ```bash
-    git clone https://github.com/josecervera20/screenmatch-java
-    ```
-2. Abre el proyecto en tu IDE preferido.
-3. Compila y ejecuta el archivo `Main.java`.
+2. **Abrir el proyecto en tu IDE favorito.**
 
----
+3. **Compilar y ejecutar el archivo `Principal.java`.**
 
-### Uso
-1. Al ejecutar el programa, verás una descripción detallada de la película.
-2. Ingresa tus calificaciones cuando el programa lo solicite.
-    - Se valida que las calificaciones estén entre 1 y 5.
-3. Recibe un promedio calculado de las calificaciones ingresadas por ti y compáralo con la calificación predefinida.
-4. ¡Disfruta de la experiencia interactiva y personalizada!
+4. **Usar el menú interactivo en la consola para registrar películas o series.**
 
----
+## 📜 Ejemplo de Uso
 
-### Ejemplo de salida
-```plaintext
-¡Bienvenido a la inmersión en Java!
+Al ejecutar el programa, verás un menú con las siguientes opciones:
 
---- Detalles de la Película ---
-Película: Zootopia
-Año de lanzamiento: 2016
-Evaluación promedio: 4.8 estrellas
-Disponible en el plan básico: Sí
-Sinopsis: Una divertida aventura en la que una conejita policía y un astuto zorro se unen
-para resolver un gran misterio en la ciudad de los animales.
-
-Media de evaluación predefinida: 4.77 estrellas
-Un clásico moderno que no te puedes perder.
-
---- ¡Queremos saber tu opinión! ---
-Ingresa la calificación #1 para Zootopia (de 1 a 5): 5
-Ingresa la calificación #2 para Zootopia (de 1 a 5): 4.5
-Ingresa la calificación #3 para Zootopia (de 1 a 5): 4.8
-
-La media de calificaciones para Zootopia según tu opinión es: 4.77 estrellas
-¡Gracias por participar!
+```
+===================================
+¡Bienvenido(a) a Screenmatch!
+Selecciona una opción del menú:
+1) Registrar nueva película
+2) Registrar nueva serie
+9) Salir del programa
+===================================
 ```
 
----
+Elige una opción (1 o 2) y luego ingresa los detalles requeridos. El programa te mostrará una ficha técnica con la información registrada.
 
-### Contribuciones
-Si deseas contribuir:
-1. Realiza un fork del repositorio.
-2. Crea una rama para tu funcionalidad:
-    ```bash
-    git checkout -b feature/nueva-funcionalidad
-    ```
-3. Envía un pull request.
+## 📝 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
-### Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-### Autor
-Desarrollado con 💻 por José Luis Justiniano Cervera.
-
----
